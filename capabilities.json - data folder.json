@@ -1,0 +1,111 @@
+{ 
+  "chrome-grid": {
+    "host":"http://xlzvbta0053x.lvdc.kp.org:4445/wd/hub",
+    "browserCapabilities": {
+    "browserName": "chrome",
+    "version": "",
+    "platform": "ANY",
+    "javascriptEnabled": true
+    }
+  },
+  
+  "firefox-grid-mac": {
+    "host":"http://rumba.lvdc.kp.org:4445/wd/hub",
+    "browserCapabilities": {
+    "browserName": "firefox",
+    "version": "",
+    "platform": "ANY",
+    "javascriptEnabled": true,
+    "setAssumeUntrustedCertificateIssuer" : false,
+    "acceptSslCerts": true,
+    "takesScreenshot": true
+    }
+  },
+
+"firefox-grid": {
+    "host":"http://xlzvbta0012x.lvdc.kp.org:4445/wd/hub",
+    "browserCapabilities": {
+    "browserName": "firefox",
+    "version": "",
+    "platform": "ANY",
+    "javascriptEnabled": true,
+    "setAssumeUntrustedCertificateIssuer" : false,
+    "acceptSslCerts": true,
+    "takesScreenshot": true
+    }
+  },
+
+  "ie-grid": {
+    "host":"http://xlzvbta0094x.lvdc.kp.org:4445/wd/hub",
+    "browserCapabilities": {
+     "browserName": "internet explorer",
+      "version": "",
+      "platform": "ANY",
+      "javascriptEnabled": true
+    }
+  },
+ 
+ "perfecto" :{
+    "host" : "https://KP.perfectomobile.com/nexperience/perfectomobile/wd/hub"
+  },
+
+ "ie": {
+    "browserName": "internet explorer",
+    "version": "",
+    "platform": "ANY",
+    "javascriptEnabled": true
+  },
+  
+  "safari": {
+    "browserName": "safari",
+    "version": "",
+    "platform": "ANY",
+    "javascriptEnabled": true,
+    "cssSelectorsEnabled": true
+  },
+  "chrome": {
+    "browserName": "chrome",
+    "version": "",
+    "platform": "ANY",
+    "javascriptEnabled": true
+  },
+  "firefox": {
+    "setAssumeUntrustedCertificateIssuer" : false,
+    "platform": "MAC",
+    "acceptSslCerts": true,
+    "javascriptEnabled": true,
+    "browserName": "firefox",
+    "takesScreenshot": true
+  },
+  "firefox-v39": {
+    "platform": "MAC",
+    "acceptSslCerts": true,
+    "javascriptEnabled": true,
+    "browserName": "firefox",
+    "rotatable": false,
+    "locationContextEnabled": true,
+    "version": "39",
+    "cssSelectorsEnabled": true,
+    "databaseEnabled": true,
+    "handlesAlerts": true,
+    "browserConnectionEnabled": true,
+    "nativeEvents": false,
+    "webStorageEnabled": true,
+    "applicationCacheEnabled": true,
+    "takesScreenshot": true
+  },
+
+  "phantomjs": {
+    "browserName": "phantomjs",
+    "version": "",
+    "platform": "ANY",
+    "javascriptEnabled": true
+  },
+  "iphone": {
+    "browserName": "safari",
+    "appium-version": "1.4.1",
+    "platformName": "iOS",
+    "platformVersion": "8.3",
+    "deviceName": "iPhone 6"
+  }
+}

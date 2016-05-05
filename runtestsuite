@@ -1,0 +1,36 @@
+#!/bin/bash
+
+genAllureReport() {
+  # allure report generator
+  echo "Generating Allure Report at location './allure-reports'..."
+  echo "allure generate allure-results$(get_testresult_dir_suffix $@)/"
+  foldersuffix=$(get_testresult_dir_suffix $@)
+  cp -r allure-results$foldersuffix archive-allure-results/allure-results$foldersuffix-$(date +"%Y%b%d-%H%M%S")
+  allure generate allure-results$foldersuffix/ -o allure-reports$foldersuffix/ || ~/allure-commandline/bin/allure.bat generate allure-results$foldersuffix/ -o allure-reports$foldersuffix/
+}
+
+get_testresult_dir_suffix() {
+  suffix=""
+  for value in $@;
+  do
+    if [[ $value == \--resultsdirsuffix* ]];
+    then
+      suffix=$(echo ${value#*=} | sed "s/,/ /g")
+      break;
+    fi
+  done
+  echo "$suffix"
+}
+
+grunt() {
+  allureresultsfolder="allure-results$(get_testresult_dir_suffix $@)"
+  failedresultsdir=""
+  if [ "$(echo archive-allure-results/$allureresultsfolder*)" != "archive-allure-results/$allureresultsfolder*" ]; then
+    failedresultsdir="$(ls -dt archive-allure-results/$allureresultsfolder* | grep / | sed 's/:\/' | head -n 1)"
+  fi
+  "$(npm bin)/grunt" "--failedresultsdir=$failedresultsdir " "$@"
+}
+
+echo "$@"
+grunt "$@"
+genAllureReport "$@"

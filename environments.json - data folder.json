@@ -1,0 +1,12 @@
+{
+  "baseUrl": {
+    "portal": "https://env.kaiserpermanente.org/health/care/signon",
+    "rwd": "https://env.kaiserpermanente.org/content/kporg/en/national/sign-on.html",
+    "aem": "https://env.kaiserpermanente.org/content/kporg/en.html"
+  },
+  "links": {
+    "mcc1": "https://dev10.kaiserpermanente.org/content/kporg/en/national/coverage-costs.html",
+    "mcc2": "https://dev10.kaiserpermanente.org/content/kporg/en/national/coverage-costs.html",
+    "health-records-threaten": "https://dev20.kaiserpermanente.org/content/kporg/en/national/alerts/p1/health-records-threaten.html"
+  }
+}

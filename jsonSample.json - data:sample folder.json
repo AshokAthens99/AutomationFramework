@@ -1,0 +1,87 @@
+{
+  "table1": [
+    {
+      "id": "1",
+      "name": "manoj",
+      "password": "pass1",
+      "tags": [
+        "sampleTag1",
+        "default"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "raja",
+      "password": "pass2",
+      "tags": [
+        "sampleTag1",
+        "default"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "sekar",
+      "password": "pass3",
+      "tags": [
+        "sampleTag1",
+        "default"
+      ]
+    }
+  ],
+  "table2": [
+    {
+      "id": "1",
+      "name": "test1",
+      "password": "pass1",
+      "tags": [
+        "sampleTag2",
+        "default"
+      ],
+      "group": "skittles"
+    },
+    {
+      "id": "2",
+      "name": "test2",
+      "password": "pass2",
+      "tags": [
+        "sampleTag2",
+        "default"
+      ],
+      "group": "skittles"
+    },
+    {
+      "id": "3",
+      "name": "test3",
+      "password": "pass3",
+      "tags": [
+        "sampleTag2",
+        "default"
+      ],
+      "group": "skittles"
+    }
+  ],
+  "provider": [
+    {
+      "region": "southern-california",
+      "provider_id_first3digits": "249",
+      "provider_id2_first5digits": "24911",
+      "provder_id3_fullid": "2491139",
+      "provider_name": "sarah-austin",
+      "tags": [
+        "default",
+        "realData"
+      ]
+    },
+    {
+      "region": "southern-california",
+      "provider_id_first3digits": "249",
+      "provider_id2_first5digits": "24911",
+      "provder_id3_fullid": "2491139",
+      "provider_name": "sarah-austin",
+      "tags": [
+        "realData",
+        "default"
+      ]
+    }
+  ]
+}

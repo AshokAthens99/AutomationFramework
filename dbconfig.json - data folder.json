@@ -1,0 +1,75 @@
+{
+  "dev1":{
+    "host": "xlzsddb0010x.lvdc.kp.org",
+    "port": "1521",
+    "sid": "WPPDEV1",
+    "user": "wpcoapp",
+    "password": "wpc9app",
+    "connectString": "xlzsddb0010x.lvdc.kp.org:1521/APCODEV1",
+    "tags": ["read","write"]
+  },
+  "dev3":{
+    "host": "xlzsddb0011x.lvdc.kp.org",
+    "port": "1521",
+    "sid": "WPPDEV3",
+    "user": "wpcoapp",
+    "password": "wpc9app",
+    "tags": ["read","write"]
+  },
+  "hint1":{
+    "host": "xlzsddb0010x.lvdc.kp.org",
+    "port": "1521",
+    "sid": "APCOINT3",
+    "user": "wpcoappxd36x",
+    "password": "wpc9app",
+    "tags": ["read"]
+  },
+  "hint2":{
+    "host": "xlzsddb0010x.lvdc.kp.org",
+    "port": "1521",
+    "sid": "APCOINT4",
+    "user": "wpcoappxd67x",
+    "password": "wpc9app",
+    "tags": ["read"]
+  },
+  "hint3":{
+    "host": "xlzsddb0011x.lvdc.kp.org",
+    "port": "1521",
+    "sid": "APCODEV2",
+    "user": "wpcoappxs11x",
+    "password": "wpc9app",
+    "tags": ["read"]
+  },
+  "hqa":{
+    "host": "xlzsddb0030x.lvdc.kp.org",
+    "port": "1521",
+    "sid": "APCOQA1",
+    "user": "wpcoapp",
+    "password": "wpc9app",
+    "tags": ["read"]
+  },
+  "hqab":{
+    "host": "xlzsddb0030x.lvdc.kp.org",
+    "port": "1521",
+    "sid": "APCOQA2",
+    "user": "wpcoapp",
+    "password": "wpc9app",
+    "tags": ["read"]
+  },
+  "hqac":{
+    "host": "xlzsddb0030x.lvdc.kp.org",
+    "port": "1521",
+    "sid": "APCOQA3",
+    "user": "wpcoapp",
+    "password": "wpc3app",
+    "tags": ["read"]
+  },
+    "dev20":{
+    "host": "10.8.136.80",
+    "port": "1521",
+    "sid": "APPDEV20",
+    "user": "wpcoapp",
+    "password": "wpc9app",
+    "tags": ["read"]
+  }
+}

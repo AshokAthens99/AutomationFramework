@@ -1,0 +1,112 @@
+{
+  "users": [
+    {
+      "canSignon": true,
+      "region": "COL",
+      "tags": [
+        "default",
+        "member",
+        "colorado"
+      ],
+      "group": "Signon",
+      "label": "COL User",
+      "password": "password7",
+      "username": "mrn14434988"
+    },
+    {
+      "canSignon": true,
+      "region": "sca",
+      "tags": [
+        "sca-unit",
+        "member",
+        "colorado"
+      ],
+      "group": "Signon",
+      "label": "sca User",
+      "password": "password7",
+      "username": "mrn14434988"
+    },
+    {
+      "canSignon": true,
+      "region": "ncal",
+      "tags": [
+        "ncal-unit",
+        "member",
+        "colorado"
+      ],
+      "group": "Member",
+      "label": "ncal User",
+      "password": "password7",
+      "username": "mrn14432223"
+    },
+    {
+      "canSignon": true,
+      "region": "haw",
+      "tags": [
+        "haw-unit",
+        "member",
+        "colorado"
+      ],
+      "group": "Member",
+      "label": "haw User",
+      "password": "password7",
+      "username": "haw9850945"
+    },
+    {
+      "canSignon": true,
+      "region": "mid",
+      "tags": [
+        "mid-unit",
+        "member",
+        "colorado"
+      ],
+      "group": "Member",
+      "label": "mid User",
+      "password": "password7",
+      "username": "mid74190793"
+    },
+    {
+      "canSignon": true,
+      "region": "gga",
+      "tags": [
+        "gga-unit",
+        "member",
+        "colorado"
+      ],
+      "group": "Member",
+      "label": "gga User",
+      "password": "password7",
+      "username": "useridga1600755"
+    },
+    {
+      "canSignon": true,
+      "region": "knw",
+      "tags": [
+        "knw-unit",
+        "member",
+        "colorado"
+      ],
+      "group": "Member",
+      "label": "knw User",
+      "password": "password7",
+      "username": "knw23960836"
+    },
+    {
+      "filter": "(uid=sca35039214)",
+      "scope": "sub",
+      "attributes": "objectClass",
+      "tags": [
+        "Ldap Search Operation"
+      ]
+    },
+    {
+      "userId": "gga001841986",
+      "guid": "100020597",
+      "tags": [
+        "audit",
+        "audit log",
+        "read-only"
+      ]
+    }
+  ]
+}

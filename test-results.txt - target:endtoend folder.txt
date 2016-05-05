@@ -1,0 +1,37 @@
+Browser   firefox
+Capabilities   { setAssumeUntrustedCertificateIssuer: false,
+  platform: 'MAC',
+  acceptSslCerts: true,
+  javascriptEnabled: true,
+  browserName: 'firefox',
+  takesScreenshot: true }
+
+ select one row : Execution Starts ... 
+
+{"DMC_RGN_PK":"1","DMC_RGN_DESC":"California - Northern","DMC_RGN_NAME":"MRN"}
+
+ Execution Status  -   [32mpassed[39m
+
+ select multiple rows : Execution Starts ... 
+
+[{"DMC_RGN_PK":"1","DMC_RGN_DESC":"California - Northern","DMC_RGN_NAME":"MRN"},{"DMC_RGN_PK":"2","DMC_RGN_DESC":"California - Southern","DMC_RGN_NAME":"SCA"},{"DMC_RGN_PK":"3","DMC_RGN_DESC":"Maryland/Virginia/Washington D.C.","DMC_RGN_NAME":"MID"},{"DMC_RGN_PK":"4","DMC_RGN_DESC":"Oregon/Washington","DMC_RGN_NAME":"KNW"},{"DMC_RGN_PK":"5","DMC_RGN_DESC":"Hawaii","DMC_RGN_NAME":"HAW"},{"DMC_RGN_PK":"6","DMC_RGN_DESC":"Colorado","DMC_RGN_NAME":"COL"},{"DMC_RGN_PK":"7","DMC_RGN_DESC":"Georgia","DMC_RGN_NAME":"GGA"}]
+
+ Execution Status  -   [32mpassed[39m
+
+ insert row : Execution Starts ... 
+
+1
+
+ Execution Status  -   [32mpassed[39m
+
+ update row(s) : Execution Starts ... 
+
+1
+
+ Execution Status  -   [32mpassed[39m
+
+ delete row(s) : Execution Starts ... 
+
+1
+
+ Execution Status  -   [32mpassed[39m
